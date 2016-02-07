@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/open_item"
+          android:title="@string/open_in_browser"
+          android:icon="@drawable/ic_action_web_site"
+          android:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/share_item"
+          android:title="@string/share"
+          android:icon="@drawable/ic_action_share"
+          android:showAsAction="ifRoom"/>
+
+</menu><!-- From: file:/D:/Workspace/skynet/teamnews/api/res/menu/context_menu.xml --><!-- From: file:/D:/Workspace/skynet/teamnews/music-justinbieber/build/intermediates/exploded-aar/teamnews/api/1.0/res/menu/context_menu.xml -->

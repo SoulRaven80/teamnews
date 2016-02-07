@@ -1,0 +1,64 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        mavenLocal()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.0.0'
+    }
+}
+
+allprojects {
+    apply plugin: "idea"
+
+    version = '1.0'
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+        flatDir {
+            dirs 'api/libs'
+        }
+    }
+}
+
+project(":music-justinbieber") {
+    apply plugin: "android"
+
+    dependencies {
+        compile project(":api")
+    }
+}
+
+project(":futbol-riverplate") {
+    apply plugin: "android"
+
+    dependencies {
+        compile project(":api")
+    }
+}
+
+project(":nba-mavericks") {
+    apply plugin: "android"
+
+    dependencies {
+        compile project(":api")
+    }
+}
+
+project(":nba-rockets") {
+    apply plugin: "android"
+
+    dependencies {
+        compile project(":api")
+    }
+}
+
+project(":nba-spurs") {
+    apply plugin: "android"
+
+    dependencies {
+        compile project(":api")
+    }
+}

@@ -1,0 +1,4 @@
+D:\Workspace\skynet\teamnews\music-justinbieber\build\intermediates\classes\debug
+D:\Workspace\skynet\teamnews\music-justinbieber\build\intermediates\pre-dexed\debug\classes-e7be556869e7c2bd58ae3111db03a4da5b844136.jar
+D:\Workspace\skynet\teamnews\music-justinbieber\build\intermediates\pre-dexed\debug\android-support-v4-6310d091754a5b45234899275f10dac543dc5e98.jar
+D:\Workspace\skynet\teamnews\music-justinbieber\build\intermediates\pre-dexed\debug\StartAppInApp-3.1.2-3005c74afdd522d6604c99d06e2a21a42c995b53.jar

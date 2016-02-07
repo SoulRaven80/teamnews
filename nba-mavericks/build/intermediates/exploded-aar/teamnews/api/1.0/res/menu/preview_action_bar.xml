@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/action_open"
+          android:icon="@drawable/ic_action_web_site"
+          android:showAsAction="ifRoom"
+          android:title="@string/open_in_browser"/>
+
+    <item android:id="@+id/action_share"
+          android:icon="@drawable/ic_action_share"
+          android:showAsAction="ifRoom"
+          android:title="@string/share"/>
+</menu><!-- From: file:/F:/Workspace/skynet/teamnews/api/res/menu/preview_action_bar.xml -->

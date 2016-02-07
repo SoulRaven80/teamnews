@@ -1,0 +1,18 @@
+Version 5
+- Added toast messages for errors starting the application
+- Minor bugs fixed
+
+Version 4
+- Minor bugs fixed
+
+Version 3
+- Fixed encoding of rss preview
+- Minor bugs fixed
+
+Version 2
+- Stub images added to the list of news
+- Preview screen added to read the news before opening it in a browser or share it
+- Minor bugs fixed
+
+Version 1
+- Initial version

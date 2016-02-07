@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/Workspace/skynet/teamnews/api/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Noticias de River Plate</string>
+    <string name="confirm_on_exit">\u00bfEst\u00e1 seguro que desea salir?</string>
+    <string name="error">Error</string>
+    <string name="error_no_connection">Conexi\u00f3n a internet no disponible</string>
+    <string name="error_no_fetched_data">Imposible obtener noticias</string>
+    <string name="open_in_browser">Abrir</string>
+    <string name="refresh">Actualizar</string>
+    <string name="share">Compartir</string>
+    <!-- From: file:/F:/Workspace/skynet/teamnews/api/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="GenericProgressBackground" parent="android:Theme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">#DD111111</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="GenericProgressIndicator" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+</resources>

@@ -1,0 +1,51 @@
+- Parse images in other apps (update API v6)
+- Add holder to fix number of rows bug
+- Search feature
+- Save (archive) articles
+- Download rss with a private service
+- About screen
+- Show news in full panel (handheld)
+- Show news in right panel (tablet)
+- Add tests
+- Goddess section
+
+EASTERN CONFERENCE
+Atlantic
+Boston Celtics
+Brooklyn Nets
+New York Knicks
+Philadelphia 76ers
+Toronto Raptors
+
+Central
+Chicago Bulls
+Cleveland Cavaliers
+Detroit Pistons
+Indiana Pacers
+Milwaukee Bucks
+
+Southeast
+Atlanta Hawks
+Charlotte Hornets
+Miami Heat
+Orlando Magic
+Washington Wizards
+
+WESTERN CONFERENCE
+Southwest
+Memphis Grizzlies
+New Orleans Pelicans
+
+Northwest
+Denver Nuggets
+Minnesota Timberwolves
+Oklahoma City Thunder
+Portland Trail Blazers
+Utah Jazz
+
+Pacific
+Golden State Warriors
+Los Angeles Clippers
+Los Angeles Lakers
+Phoenix Suns
+Sacramento Kings

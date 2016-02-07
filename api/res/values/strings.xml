@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Noticias de River Plate</string>
+    <string name="share">Compartir</string>
+    <string name="refresh">Actualizar</string>
+    <string name="open_in_browser">Abrir</string>
+    <string name="confirm_on_exit">\u00bfEst\u00e1 seguro que desea salir?</string>
+    <string name="error">Error</string>
+    <string name="error_no_connection">Conexi\u00f3n a internet no disponible</string>
+    <string name="error_no_fetched_data">Imposible obtener noticias</string>
+
+</resources>

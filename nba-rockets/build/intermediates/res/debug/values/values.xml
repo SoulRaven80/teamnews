@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Workspace/skynet/teamnews/nba-rockets/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Rockets News</string>
+    <string name="confirm_on_exit">Are you sure you want to exit?</string>
+    <string name="error">Error</string>
+    <string name="error_no_connection">Internet connection not available</string>
+    <string name="error_no_fetched_data">Cannot obtain news from remote sources</string>
+    <string name="open_in_browser">Open</string>
+    <string name="refresh">Refresh</string>
+    <string name="share">Share</string>
+    <!-- From: file:/D:/Workspace/skynet/teamnews/nba-rockets/build/intermediates/exploded-aar/teamnews/api/1.0/res/values/values.xml -->
+    <eat-comment/>
+    <style name="GenericProgressBackground" parent="android:Theme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">#DD111111</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="GenericProgressIndicator" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+</resources>

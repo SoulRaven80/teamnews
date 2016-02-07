@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.soulraven.teamnews.nba.rockets"
+    android:versionCode="5"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="13" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name="com.soulraven.teamnews.nba.rockets.activity.SplashScreenActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.soulraven.teamnews.nba.rockets.activity.NewsListActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.soulraven.teamnews.nba.rockets.activity.SplashScreenActivity" />
+        <activity
+            android:name="com.soulraven.teamnews.activity.DisplayNewsActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.soulraven.teamnews.nba.rockets.activity.NewsListActivity" />
+        <activity
+            android:name="com.startapp.android.publish.list3d.List3DActivity"
+            android:taskAffinity="com.soulraven.teamnews.nba.rockets.AppWall"
+            android:theme="@android:style/Theme" />
+        <activity
+            android:name="com.startapp.android.publish.AppWallActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:taskAffinity="com.soulraven.teamnews.nba.rockets.AppWall"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <!-- <activity android:name="com.startapp.android.publish.list3d.List3DActivity" -->
+        <!-- android:theme="@android:style/Theme" /> -->
+
+        <activity
+            android:name="com.startapp.android.publish.OverlayActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.startapp.android.publish.FullScreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme" />
+    </application>
+
+</manifest>
