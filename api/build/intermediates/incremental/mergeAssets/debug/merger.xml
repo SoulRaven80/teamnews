@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="F:\Workspace\skynet\teamnews\api\assets"><file name="application.properties" path="F:\Workspace\skynet\teamnews\api\assets\application.properties"/><file name="OleRSSParser.xml" path="F:\Workspace\skynet\teamnews\api\assets\OleRSSParser.xml"/><file name="YahooRSSParser.xml" path="F:\Workspace\skynet\teamnews\api\assets\YahooRSSParser.xml"/></source></dataSet><dataSet config="debug"><source path="F:\Workspace\skynet\teamnews\api\src\debug\assets"/></dataSet></merger>

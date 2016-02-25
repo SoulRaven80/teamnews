@@ -14,3 +14,5 @@ out/
 .idea/workspace.xml
 .idea/vcs.xml
 teamnews.iml
+*/build/
+*/*.iml

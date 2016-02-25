@@ -1,4 +1,0 @@
-F:\Workspace\skynet\teamnews\nba-mavericks\build\intermediates\classes\debug
-F:\Workspace\skynet\teamnews\nba-mavericks\build\intermediates\pre-dexed\debug\classes-0f42cf2cfbfb22951292d4bf953e1f12799d68c1.jar
-F:\Workspace\skynet\teamnews\nba-mavericks\build\intermediates\pre-dexed\debug\android-support-v4-857854013b5c17c53b305b0b08526706a06cb672.jar
-F:\Workspace\skynet\teamnews\nba-mavericks\build\intermediates\pre-dexed\debug\StartAppInApp-3.1.2-b3d0020a1c280deea359f5d2615b972d59047724.jar
