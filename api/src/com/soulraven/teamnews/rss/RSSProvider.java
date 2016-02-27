@@ -1,25 +1,42 @@
 package com.soulraven.teamnews.rss;
 
-import android.content.Context;
 import com.soulraven.teamnews.model.RSSEntry;
 import com.soulraven.teamnews.properties.PropertiesLoader;
-import com.soulraven.teamnews.rss.parser.RSSParser;
+import com.soulraven.teamnews.properties.PropertyKeys;
+import com.soulraven.teamnews.rss.parser.postprocess.RSSFilter;
+import com.soulraven.teamnews.rss.parser.postprocess.impl.KeywordsRSSFilter;
+import com.soulraven.teamnews.rss.parser.postprocess.impl.TrueRSSFilter;
 
 import java.util.*;
 
-public abstract class RSSProvider {
+public final class RSSProvider {
 
+    private static RSSProvider instance = null;
     protected List<RSSEntry> data = null;
+    private static final TrueRSSFilter TRUE_RSS_FILTER = new TrueRSSFilter();
+    private static final KeywordsRSSFilter KEYWORDS_RSS_FILTER = new KeywordsRSSFilter();
 
-    protected RSSProvider() { }
+    private RSSProvider() { }
 
-    public boolean loadData(final Context context) {
+    public synchronized static RSSProvider getInstance() {
+        if (instance == null) {
+            instance = new RSSProvider();
+        }
+        return instance;
+    }
+
+    public boolean loadData() {
         data = new ArrayList<RSSEntry>();
 
-        Map<String, RSSParser> parsers = getParsers();
-        Set<String> keySet = parsers.keySet();
-        for (String key : keySet) {
-            addEntries(PropertiesLoader.getProperty(key), data, parsers.get(key), context);
+        Enumeration<Object> keys = PropertiesLoader.getKeys();
+        while (keys.hasMoreElements()) {
+            String key = (String)keys.nextElement();
+            if (key.startsWith(PropertyKeys.RSS_URL_NOFILTER)) {
+                addEntries(key, TRUE_RSS_FILTER);
+            }
+            else if (key.startsWith(PropertyKeys.RSS_URL_KEYWORDS)) {
+                addEntries(key, KEYWORDS_RSS_FILTER);
+            }
         }
 
         Collections.sort(data, new Comparator<RSSEntry>() {
@@ -34,19 +51,20 @@ public abstract class RSSProvider {
         return !data.isEmpty();
     }
 
-    protected void addEntries(final String page, final List<RSSEntry> entries, final RSSParser rssParser,
-                                   final Context context) {
+    private void addEntries(final String key, final RSSFilter filter) {
+        String url = PropertiesLoader.getProperty(key);
+        addEntries(url, data, filter);
+    }
+
+    private void addEntries(final String page, final List<RSSEntry> entries, final RSSFilter filter) {
         RSSConsumer handler = new RSSConsumer(page);
-        handler.fetchXML(rssParser, context);
+        handler.fetchJSON(filter);
         while (!handler.isParsingComplete());
         if (handler.hasEntries()) {
             entries.addAll(handler.getEntries());
         }
     }
-
     public List<RSSEntry> getData() {
         return data;
     }
-
-    protected abstract Map<String, RSSParser> getParsers();
 }

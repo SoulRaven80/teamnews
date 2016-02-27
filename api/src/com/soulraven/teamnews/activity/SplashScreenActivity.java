@@ -11,10 +11,15 @@ import android.os.StrictMode;
 import android.widget.Toast;
 import com.soulraven.teamnews.R;
 import com.soulraven.teamnews.properties.PropertiesLoader;
+import com.soulraven.teamnews.rss.RSSProvider;
+import com.startapp.android.publish.StartAppAd;
+import com.startapp.android.publish.StartAppSDK;
 
-public abstract class SplashScreenActivity extends Activity implements ProviderActivity {
+public abstract class SplashScreenActivity extends Activity {
 
     private static final long SPLASH_TIME_OUT = 3000;
+    protected StartAppAd startAppAd = null;
+    private Intent intent = null;
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
@@ -41,7 +46,7 @@ public abstract class SplashScreenActivity extends Activity implements ProviderA
                 NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
                 if (networkInfo != null && networkInfo.isConnected()) {
                     // fetch data
-                    if (getRSSProvider().loadData(SplashScreenActivity.this)) {
+                    if (RSSProvider.getInstance().loadData()) {
                         startActivity(getListIntent());
                     } else {
                         exitOnError(getResources().getString(R.string.error_no_fetched_data));
@@ -61,9 +66,23 @@ public abstract class SplashScreenActivity extends Activity implements ProviderA
         finish();
     }
 
-    protected void init(final Bundle savedInstanceState) { }
+    protected void init(Bundle savedInstanceState) {
+        StartAppSDK.init(this, getAppId(), true);
+    }
 
-    protected void afterPropertiesInitialized(final Bundle savedInstanceState) { }
+    protected void afterPropertiesInitialized(Bundle savedInstanceState) {
+        startAppAd.showAd();
+        startAppAd.loadAd();
+    }
 
-    protected abstract Intent getListIntent();
+    protected Intent getListIntent() {
+        if (intent == null) {
+            intent = new Intent(this, getListActivityClass());
+        }
+        return intent;
+    }
+
+    protected abstract String getAppId();
+
+    protected abstract Class getListActivityClass();
 }

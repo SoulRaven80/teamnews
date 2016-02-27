@@ -16,19 +16,35 @@ import android.widget.ListView;
 import com.soulraven.teamnews.R;
 import com.soulraven.teamnews.activity.adapter.RSSArrayAdapter;
 import com.soulraven.teamnews.model.RSSEntry;
+import com.soulraven.teamnews.rss.RSSProvider;
+import com.startapp.android.publish.StartAppAd;
 
 import java.util.*;
 
-public abstract class NewsListActivity extends ListActivity implements ProviderActivity {
+public abstract class NewsListActivity extends ListActivity {
 
     private static final String TAG = NewsListActivity.class.getSimpleName();
     private RSSArrayAdapter adapter = null;
+
+    protected StartAppAd startAppAd = null;
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        startAppAd.onPause();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        startAppAd.onResume();
+    }
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        List<RSSEntry> list = getRSSProvider().getData();
+        List<RSSEntry> list = RSSProvider.getInstance().getData();
         adapter = new RSSArrayAdapter(this, list);
         setListAdapter(adapter);
 
@@ -100,14 +116,15 @@ public abstract class NewsListActivity extends ListActivity implements ProviderA
         imageView.startAnimation(rotation);
 
         item.setActionView(imageView);
+        final RSSProvider rssProvider = RSSProvider.getInstance();
 
         new Thread(new Runnable() {
             @Override
             public void run() {
                 Log.d(TAG, "RSSProvider.loadData");
-                getRSSProvider().loadData(NewsListActivity.this);
+                rssProvider.loadData();
                 Log.d(TAG, "RSSProvider.getData");
-                final List<RSSEntry> data = getRSSProvider().getData();
+                final List<RSSEntry> data = rssProvider.getData();
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
@@ -146,8 +163,10 @@ public abstract class NewsListActivity extends ListActivity implements ProviderA
         new AlertDialog.Builder(this).setMessage(R.string.confirm_on_exit)
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
+                        startAppAd.onBackPressed();
                         finish();
                     }
                 }).setNegativeButton(android.R.string.no, null).show();
     }
+
 }

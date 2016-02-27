@@ -22,7 +22,7 @@ public abstract class RemoteResourceFetcher<T> {
         long startTime = System.currentTimeMillis();
 
         try {
-            URL url = new URL(purgeUrl(urlString));
+            URL url = new URL(urlString);
             long openConnectionStartTime = System.currentTimeMillis();
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             long openConnectionEndTime = System.currentTimeMillis();
@@ -69,17 +69,6 @@ public abstract class RemoteResourceFetcher<T> {
     }
 
     protected abstract T processStream(final InputStream stream);
-
-    @SuppressWarnings("deprecation")
-	private static String purgeUrl(final String urlString) {
-        String http = urlString.substring(urlString.lastIndexOf("http"));
-        try {
-            http = URLDecoder.decode(http, "UTF-8");
-        } catch (UnsupportedEncodingException e) {
-            http = URLDecoder.decode(http);
-        }
-        return http;
-    }
 
     private synchronized boolean isProcessFinished() {
         return processFinished;

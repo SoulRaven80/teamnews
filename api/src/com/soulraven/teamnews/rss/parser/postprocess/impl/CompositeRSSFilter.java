@@ -1,7 +1,8 @@
 package com.soulraven.teamnews.rss.parser.postprocess.impl;
 
-import com.soulraven.teamnews.model.RSSEntry;
 import com.soulraven.teamnews.rss.parser.postprocess.RSSFilter;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 public class CompositeRSSFilter implements RSSFilter {
 
@@ -18,7 +19,7 @@ public class CompositeRSSFilter implements RSSFilter {
     }
 
     @Override
-    public boolean filter(final RSSEntry entry) {
+    public boolean filter(final JSONObject entry) throws JSONException {
         boolean ret = true;
         for (RSSFilter filter : filters) {
             ret = (ret && filter.filter(entry));
