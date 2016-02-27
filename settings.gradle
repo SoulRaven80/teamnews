@@ -1,1 +1,1 @@
-include ':api', ':music-justinbieber', ':futbol-riverplate', ':nba-mavericks', ':nba-rockets', ':nba-spurs'
+include ':api', ':music-justinbieber', ':futbol-riverplate', ':nba-mavericks', ':nba-rockets', ':nba-spurs', ':nba-celtics', ':nba-nets'

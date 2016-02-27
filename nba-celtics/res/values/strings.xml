@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Celtics News</string>
+    <string name="share">Share</string>
+    <string name="refresh">Refresh</string>
+    <string name="open_in_browser">Open</string>
+    <string name="confirm_on_exit">Are you sure you want to exit?</string>
+    <string name="error">Error</string>
+    <string name="error_no_connection">Internet connection not available</string>
+    <string name="error_no_fetched_data">Cannot obtain news from remote sources</string>
+
+</resources>

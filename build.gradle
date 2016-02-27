@@ -62,3 +62,19 @@ project(":nba-spurs") {
         compile project(":api")
     }
 }
+
+project(":nba-celtics") {
+    apply plugin: "android"
+
+    dependencies {
+        compile project(":api")
+    }
+}
+
+project(":nba-nets") {
+    apply plugin: "android"
+
+    dependencies {
+        compile project(":api")
+    }
+}
