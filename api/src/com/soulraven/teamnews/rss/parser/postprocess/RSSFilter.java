@@ -1,8 +1,9 @@
 package com.soulraven.teamnews.rss.parser.postprocess;
 
-import com.soulraven.teamnews.model.RSSEntry;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 public interface RSSFilter {
 
-    boolean filter(final RSSEntry entry);
+    boolean filter(final JSONObject entry) throws JSONException;
 }

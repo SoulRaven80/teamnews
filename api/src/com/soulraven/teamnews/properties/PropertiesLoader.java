@@ -4,6 +4,7 @@ import android.content.Context;
 import android.util.Log;
 
 import java.io.InputStream;
+import java.util.Enumeration;
 import java.util.Properties;
 
 public final class PropertiesLoader {
@@ -41,5 +42,13 @@ public final class PropertiesLoader {
         }
         Log.d(TAG, "retrieving property " + key);
         return properties.getProperty(key, VALUE_NOT_AVAILABLE);
+    }
+
+    public static Enumeration<Object> getKeys() {
+        if (!INITIALIZED) {
+            throw new RuntimeException("Properties not initialized");
+        }
+        Log.d(TAG, "retrieving property keys");
+        return properties.keys();
     }
 }
