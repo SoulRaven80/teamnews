@@ -28,6 +28,10 @@ public abstract class NewsListActivity extends ListActivity {
 
     protected StartAppAd startAppAd = null;
 
+    public NewsListActivity() {
+        this.startAppAd = new StartAppAd(this);
+    }
+
     @Override
     protected void onPause() {
         super.onPause();

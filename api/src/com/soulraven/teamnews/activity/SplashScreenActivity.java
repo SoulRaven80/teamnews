@@ -21,6 +21,10 @@ public abstract class SplashScreenActivity extends Activity {
     protected StartAppAd startAppAd = null;
     private Intent intent = null;
 
+    public SplashScreenActivity() {
+        this.startAppAd = new StartAppAd(this);
+    }
+
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

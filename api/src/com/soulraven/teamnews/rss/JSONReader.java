@@ -4,6 +4,7 @@ import android.text.Html;
 import com.soulraven.teamnews.model.RSSEntry;
 import com.soulraven.teamnews.rss.parser.postprocess.RSSFilter;
 import com.soulraven.teamnews.util.presentation.RSSRenderer;
+import org.apache.commons.lang3.StringEscapeUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -91,19 +92,16 @@ public class JSONReader {
     public RSSEntry readEntry(final JSONObject jsonEntry) throws IOException, ParseException, JSONException {
         RSSEntry rssEntry = new RSSEntry();
 
-        /*
-        newEntry.mediaurl = entry.mediaGroups[0].contents[0].url;
-         */
-        rssEntry.setTitle(Html.fromHtml(jsonEntry.getString("title")).toString());
-        rssEntry.setDescription(Html.fromHtml(jsonEntry.getString("contentSnippet")).toString());
-        rssEntry.setOriginalDescription(Html.fromHtml(jsonEntry.getString("content")).toString());
-        rssEntry.setLink(jsonEntry.getString("link"));
-        rssEntry.setPubDate(RSS_FORMAT.parse(jsonEntry.getString("publishedDate")));
         try {
+            rssEntry.setTitle(Html.fromHtml(jsonEntry.getString("title")).toString());
+            rssEntry.setDescription(Html.fromHtml(jsonEntry.getString("contentSnippet")).toString());
+            rssEntry.setOriginalDescription(StringEscapeUtils.unescapeJava(jsonEntry.getString("content")));
+            rssEntry.setLink(jsonEntry.getString("link"));
+            rssEntry.setPubDate(RSS_FORMAT.parse(jsonEntry.getString("publishedDate")));
             rssEntry.setImageLink(jsonEntry.getJSONArray("mediaGroups").getJSONObject(0).getJSONArray("contents").getJSONObject(0).getString("url"));
         }
         catch (Exception e) {
-            System.out.println("No image link information");
+            System.out.println("Error processing the rss entry");
         }
         return rssEntry;
     }
