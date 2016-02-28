@@ -21,7 +21,7 @@ import com.startapp.android.publish.StartAppAd;
 
 import java.util.*;
 
-public abstract class NewsListActivity extends ListActivity {
+public class NewsListActivity extends ListActivity {
 
     private static final String TAG = NewsListActivity.class.getSimpleName();
     private RSSArrayAdapter adapter = null;

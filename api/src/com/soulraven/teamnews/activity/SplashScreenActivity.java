@@ -15,7 +15,7 @@ import com.soulraven.teamnews.rss.RSSProvider;
 import com.startapp.android.publish.StartAppAd;
 import com.startapp.android.publish.StartAppSDK;
 
-public abstract class SplashScreenActivity extends Activity {
+public class SplashScreenActivity extends Activity {
 
     private static final long SPLASH_TIME_OUT = 3000;
     protected StartAppAd startAppAd = null;
@@ -29,6 +29,7 @@ public abstract class SplashScreenActivity extends Activity {
     protected void onCreate(final Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        PropertiesLoader.initialize(SplashScreenActivity.this);
         init(savedInstanceState);
 
         setContentView(R.layout.activity_splash);
@@ -41,7 +42,6 @@ public abstract class SplashScreenActivity extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                PropertiesLoader.initialize(SplashScreenActivity.this);
 
                 afterPropertiesInitialized(savedInstanceState);
 
@@ -71,7 +71,7 @@ public abstract class SplashScreenActivity extends Activity {
     }
 
     protected void init(Bundle savedInstanceState) {
-        StartAppSDK.init(this, getAppId(), true);
+        StartAppSDK.init(this, PropertiesLoader.getProperty(PropertiesLoader.APP_ID), true);
     }
 
     protected void afterPropertiesInitialized(Bundle savedInstanceState) {
@@ -81,12 +81,8 @@ public abstract class SplashScreenActivity extends Activity {
 
     protected Intent getListIntent() {
         if (intent == null) {
-            intent = new Intent(this, getListActivityClass());
+            intent = new Intent(this, NewsListActivity.class);
         }
         return intent;
     }
-
-    protected abstract String getAppId();
-
-    protected abstract Class getListActivityClass();
 }

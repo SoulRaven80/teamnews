@@ -1,6 +1,7 @@
 package com.soulraven.teamnews.rss;
 
 import android.text.Html;
+import android.util.Log;
 import com.soulraven.teamnews.model.RSSEntry;
 import com.soulraven.teamnews.rss.parser.postprocess.RSSFilter;
 import com.soulraven.teamnews.util.presentation.RSSRenderer;
@@ -22,6 +23,8 @@ import java.util.regex.Pattern;
 import static com.soulraven.teamnews.rss.parser.RSSParser.RSS_FORMAT;
 
 public class JSONReader {
+
+    private static final String TAG = JSONReader.class.getSimpleName();
 
 /*{
    "responseData":{
@@ -98,10 +101,15 @@ public class JSONReader {
             rssEntry.setOriginalDescription(StringEscapeUtils.unescapeJava(jsonEntry.getString("content")));
             rssEntry.setLink(jsonEntry.getString("link"));
             rssEntry.setPubDate(RSS_FORMAT.parse(jsonEntry.getString("publishedDate")));
-            rssEntry.setImageLink(jsonEntry.getJSONArray("mediaGroups").getJSONObject(0).getJSONArray("contents").getJSONObject(0).getString("url"));
+            try {
+                rssEntry.setImageLink(jsonEntry.getJSONArray("mediaGroups").getJSONObject(0).getJSONArray("contents").getJSONObject(0).getString("url"));
+            }
+            catch (Exception e) {
+                Log.d(TAG, "Cannot found image link");
+            }
         }
         catch (Exception e) {
-            System.out.println("Error processing the rss entry");
+            Log.e(TAG, "Error processing the rss entry", e);
         }
         return rssEntry;
     }

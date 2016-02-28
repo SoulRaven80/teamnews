@@ -1,7 +1,6 @@
 package com.soulraven.teamnews.rss.parser.postprocess.impl;
 
 import com.soulraven.teamnews.properties.PropertiesLoader;
-import com.soulraven.teamnews.properties.PropertyKeys;
 import com.soulraven.teamnews.rss.parser.postprocess.RSSFilter;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -11,8 +10,8 @@ public final class KeywordsRSSFilter implements RSSFilter {
     private String[] keywords = null;
 
     public KeywordsRSSFilter() {
-        String keywordList = PropertiesLoader.getProperty(PropertyKeys.KEYWORDS);
-        keywords = keywordList.split(PropertiesLoader.getProperty(PropertyKeys.KEYWORDS_SEPARATOR));
+        String keywordList = PropertiesLoader.getProperty(PropertiesLoader.KEYWORDS);
+        keywords = keywordList.split(PropertiesLoader.getProperty(PropertiesLoader.KEYWORDS_SEPARATOR));
     }
 
     @Override

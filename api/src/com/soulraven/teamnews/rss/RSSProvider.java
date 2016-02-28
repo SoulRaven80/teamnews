@@ -2,7 +2,6 @@ package com.soulraven.teamnews.rss;
 
 import com.soulraven.teamnews.model.RSSEntry;
 import com.soulraven.teamnews.properties.PropertiesLoader;
-import com.soulraven.teamnews.properties.PropertyKeys;
 import com.soulraven.teamnews.rss.parser.postprocess.RSSFilter;
 import com.soulraven.teamnews.rss.parser.postprocess.impl.KeywordsRSSFilter;
 import com.soulraven.teamnews.rss.parser.postprocess.impl.TrueRSSFilter;
@@ -31,10 +30,10 @@ public final class RSSProvider {
         Enumeration<Object> keys = PropertiesLoader.getKeys();
         while (keys.hasMoreElements()) {
             String key = (String)keys.nextElement();
-            if (key.startsWith(PropertyKeys.RSS_URL_NOFILTER)) {
+            if (key.startsWith(PropertiesLoader.RSS_URL_NOFILTER)) {
                 addEntries(key, TRUE_RSS_FILTER);
             }
-            else if (key.startsWith(PropertyKeys.RSS_URL_KEYWORDS)) {
+            else if (key.startsWith(PropertiesLoader.RSS_URL_KEYWORDS)) {
                 addEntries(key, KEYWORDS_RSS_FILTER);
             }
         }
