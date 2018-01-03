@@ -3,12 +3,15 @@ package com.soulraven.teamnews.rss;
 import android.text.Html;
 import android.util.Log;
 import com.soulraven.teamnews.model.RSSEntry;
+import com.soulraven.teamnews.rss.parser.DateParser;
 import com.soulraven.teamnews.rss.parser.postprocess.RSSFilter;
 import com.soulraven.teamnews.util.presentation.RSSRenderer;
+
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.json.jsonjava.XML;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -20,12 +23,59 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static com.soulraven.teamnews.rss.parser.RSSParser.RSS_FORMAT;
-
 public class JSONReader {
 
     private static final String TAG = JSONReader.class.getSimpleName();
 
+    /*
+
+{
+   "rss":{
+      "xmlns:media":"http://search.yahoo.com/mrss/",
+      "channel":{
+         "description":"InformaciÃ³n y noticias sobre el torneo de primera divisiÃ³n del fÃºtbol argentino",
+         "title":"Futbolargentino.com - DivisiÃ³n",
+         "link":"http://www.futbolargentino.com/primera-division/",
+         "image":{
+            "link":"http://www.futbolargentino.com/primera-division/",
+            "title":"Futbolargentino.com - Primera DivisiÃ³n",
+            "url":"http://www.futbolargentino.com/images/logo.png"
+         },
+         "copyright":"Copyright Futbolargentino.com",
+         "language":"es-ar",
+         "atom10:link":{
+            "href":"http://www.futbolargentino.com/primera-division/rss/",
+            "type":"application/rss+xml",
+            "xmlns:atom10":"http://www.w3.org/2005/Atom",
+            "rel":"self"
+         },
+         "item":[
+            {
+               "pubDate":"2017-12-30T19:05:00-03:00",
+               "title":"Conoce al tÃ©cnico que estarÃ­a cerca de dirigir a Gimnasia y Esgrima de la Plata",
+               "description":"Tras la salida de Mariano Soso del club, Facundo Sava&nbsp;ya suena como el posible reemplazo de Soso.\n",
+               "guid":{
+                  "isPermaLink":true
+               },
+               "link":"http://www.futbolargentino.com/primera-division/noticias/sdi/173700/conoce-al-tecnico-que-estaria-cerca-de-dirigir-a-gimnasia-y-esgrima-de-la-plata"
+            },
+            {
+               "pubDate":"2017-12-30T18:48:00-03:00",
+               "title":"Independiente tambiÃ©n quiere contar con los servicios de Romero",
+               "description":"Silvio Romero de estar en agenda en River Plate, ahora pasar&iacute;a a la lista de Independiente de Avellaneda.\n",
+               "guid":{
+                  "isPermaLink":true
+               },
+               "link":"http://www.futbolargentino.com/primera-division/noticias/sdi/173697/independiente-tambien-quiere-contar-con-los-servicios-de-romero"
+            }
+         ],
+         "ttl":10
+      },
+      "xmlns:atom":"http://www.w3.org/2005/Atom",
+      "version":2
+   }
+}
+     */
 /*{
    "responseData":{
       "feed":{
@@ -66,22 +116,27 @@ public class JSONReader {
 }*/
 
     public List<RSSEntry> readJsonStream(final InputStream stream, final RSSFilter filter) throws IOException, ParseException, JSONException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(stream, "iso-8859-1"), 8);
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(stream, "iso-8859-1"), 8);
+        BufferedReader reader = new BufferedReader(new InputStreamReader(stream, "utf-8"), 8);
         StringBuilder sb = new StringBuilder();
         String line = null;
         while ((line = reader.readLine()) != null) {
             sb.append(line + "\n");
         }
         stream.close();
-        return readEntriesArray(new JSONObject(sb.toString()), filter);
+        String xml = sb.toString();
+        org.json.jsonjava.JSONObject jObject = XML.toJSONObject(xml);
+        String json = jObject.toString();
+
+        return readEntriesArray(new JSONObject(json), filter);
     }
 
     public List<RSSEntry> readEntriesArray(final JSONObject json, final RSSFilter filter) throws JSONException, IOException, ParseException {
         List<RSSEntry> entries = new ArrayList<RSSEntry>();
 
-        JSONObject responseData = json.getJSONObject("responseData");
-        JSONObject feed = responseData.getJSONObject("feed");
-        JSONArray jsonArray = feed.getJSONArray("entries");
+        JSONObject responseData = json.getJSONObject("rss");
+        JSONObject feed = responseData.getJSONObject("channel");
+        JSONArray jsonArray = feed.getJSONArray("item");
         for (int i = 0; i < jsonArray.length(); i++) {
             JSONObject jsonEntry = jsonArray.getJSONObject(i);
             if (filter.filter(jsonEntry)) {
@@ -97,15 +152,15 @@ public class JSONReader {
 
         try {
             rssEntry.setTitle(Html.fromHtml(jsonEntry.getString("title")).toString());
-            rssEntry.setDescription(Html.fromHtml(jsonEntry.getString("contentSnippet")).toString());
-            rssEntry.setOriginalDescription(StringEscapeUtils.unescapeJava(jsonEntry.getString("content")));
+            rssEntry.setDescription(Html.fromHtml(jsonEntry.getString("description")).toString());
+            rssEntry.setOriginalDescription(StringEscapeUtils.unescapeJava(jsonEntry.getString("description")));
             rssEntry.setLink(jsonEntry.getString("link"));
-            rssEntry.setPubDate(RSS_FORMAT.parse(jsonEntry.getString("publishedDate")));
+            rssEntry.setPubDate(DateParser.parse(jsonEntry.getString("pubDate")));
             try {
                 rssEntry.setImageLink(jsonEntry.getJSONArray("mediaGroups").getJSONObject(0).getJSONArray("contents").getJSONObject(0).getString("url"));
             }
             catch (Exception e) {
-                Log.d(TAG, "Cannot found image link");
+                Log.e(TAG, "Cannot found image link");
             }
         }
         catch (Exception e) {

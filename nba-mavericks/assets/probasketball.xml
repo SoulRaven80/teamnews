@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:georss="http://www.georss.org/georss" xmlns:media="http://search.yahoo.com/mrss/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" version="2.0">
+    <channel>
+        <title>ProBasketballTalk</title>
+        <atom:link href="http://nba.nbcsports.com/feed/" rel="self" type="application/rss+xml" />
+        <link>http://nba.nbcsports.com</link>
+        <description>Basketball - NBC Sports</description>
+        <lastBuildDate>Tue, 02 Jan 2018 04:08:37 +0000</lastBuildDate>
+        <language>en</language>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <generator>http://wordpress.com/</generator>
+        <cloud domain="nba.nbcsports.com" port="80" path="/?rsscloud=notify" registerProcedure="" protocol="http-post" />
+        <image>
+            <url>http://0.gravatar.com/blavatar/6fc4fc81a30817193af551402a67c7c1?s=96&amp;d=http%3A%2F%2Fs2.wp.com%2Fi%2Fbuttonw-com.png</url>
+            <title>ProBasketballTalk</title>
+            <link>http://nba.nbcsports.com</link>
+        </image>
+        <atom:link rel="search" type="application/opensearchdescription+xml" href="http://nba.nbcsports.com/osd.xml" title="ProBasketballTalk" />
+        <atom:link rel="hub" href="http://nba.nbcsports.com/?pushpress=hub" />
+        <item>
+            <title>Jahlil Okafor to return to Nets lineup on Wednesday, will get his chance</title>
+            <link>http://nba.nbcsports.com/2018/01/01/jahlil-okafor-to-return-to-nets-lineup-on-wednesday-will-get-his-chance/</link>
+            <comments>http://nba.nbcsports.com/2018/01/01/jahlil-okafor-to-return-to-nets-lineup-on-wednesday-will-get-his-chance/#comments</comments>
+            <pubDate>Tue, 02 Jan 2018 02:30:12 +0000</pubDate>
+            <dc:creator><![CDATA[Kurt Helin]]></dc:creator>
+            <category><![CDATA[Jahlil Okafor]]></category>
+            <category><![CDATA[Brooklyn Nets]]></category>
+            <guid isPermaLink="false">http://nba.nbcsports.com/?p=833021</guid>
+            <description><![CDATA[He's playing for his next contract now.<img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=833021&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2018/01/01/jahlil-okafor-to-return-to-nets-lineup-on-wednesday-will-get-his-chance/feed/</wfw:commentRss>
+            <slash:comments>1</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2017/12/893165710-e1513731016108.jpg?w=1016&amp;h=573&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2017/12/893165710-e1513731016108.jpg" medium="image">
+                <media:title type="html">New York Knicks v Brooklyn Nets</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/eeae1d7e888eba99ee78b415bfff595b?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">kurthelin</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>James Harden out at least two weeks with Grade 2 hamstring strain</title>
+            <link>http://nba.nbcsports.com/2018/01/01/james-harden-out-at-least-two-weeks-with-grade-2-hamstring-strain/</link>
+            <comments>http://nba.nbcsports.com/2018/01/01/james-harden-out-at-least-two-weeks-with-grade-2-hamstring-strain/#comments</comments>
+            <pubDate>Tue, 02 Jan 2018 01:17:07 +0000</pubDate>
+            <dc:creator><![CDATA[Kurt Helin]]></dc:creator>
+            <category><![CDATA[James Harden]]></category>
+            <category><![CDATA[Top Posts]]></category>
+            <category><![CDATA[Houston Rockets]]></category>
+            <guid isPermaLink="false">http://nba.nbcsports.com/?p=833023</guid>
+            <description><![CDATA[He likely will be out longer than two weeks.<img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=833023&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2018/01/01/james-harden-out-at-least-two-weeks-with-grade-2-hamstring-strain/feed/</wfw:commentRss>
+            <slash:comments>1</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2018/01/900315386-e1514855640175.jpg?w=1016&amp;h=573&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2018/01/900315386-e1514855640175.jpg" medium="image">
+                <media:title type="html">Houston Rockets v Washington Wizards</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/eeae1d7e888eba99ee78b415bfff595b?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">kurthelin</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>Isaiah Thomas to make Cavaliers debut Tuesday vs. Portland</title>
+            <link>http://nba.nbcsports.com/2018/01/01/isaiah-thomas-to-make-cavaliers-debut-tuesday-vs-portland/</link>
+            <comments>http://nba.nbcsports.com/2018/01/01/isaiah-thomas-to-make-cavaliers-debut-tuesday-vs-portland/#respond</comments>
+            <pubDate>Mon, 01 Jan 2018 23:18:54 +0000</pubDate>
+            <dc:creator><![CDATA[Kurt Helin]]></dc:creator>
+            <category><![CDATA[Isaiah Thomas]]></category>
+            <category><![CDATA[Top Posts]]></category>
+            <category><![CDATA[Boston Celtics]]></category>
+            <category><![CDATA[Cleveland Cavaliers]]></category>
+            <guid isPermaLink="false">http://nba.nbcsports.com/?p=833014</guid>
+            <description><![CDATA[LeBron James could use the help and a second shot creator on the court. <img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=833014&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2018/01/01/isaiah-thomas-to-make-cavaliers-debut-tuesday-vs-portland/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2017/12/896853916-e1514447103141.jpg?w=683&amp;h=386&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2017/12/896853916-e1514447103141.jpg" medium="image">
+                <media:title type="html">Chicago Bulls v Cleveland Cavaliers</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/eeae1d7e888eba99ee78b415bfff595b?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">kurthelin</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>Report: Knicks expect Kyle O’Quinn to opt out</title>
+            <link>http://nba.nbcsports.com/2018/01/01/report-knicks-expect-kyle-oquinn-to-opt-out/</link>
+            <comments>http://nba.nbcsports.com/2018/01/01/report-knicks-expect-kyle-oquinn-to-opt-out/#comments</comments>
+            <pubDate>Mon, 01 Jan 2018 21:55:00 +0000</pubDate>
+            <dc:creator><![CDATA[Dan Feldman]]></dc:creator>
+            <category><![CDATA[Uncategorized]]></category>
+            <category><![CDATA[New York Knicks]]></category>
+            <guid isPermaLink="false">https://nbcprobasketballtalk.wordpress.com/?p=833002</guid>
+            <description><![CDATA[Will New York trade him?<img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=833002&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2018/01/01/report-knicks-expect-kyle-oquinn-to-opt-out/feed/</wfw:commentRss>
+            <slash:comments>4</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2018/01/896860586-e1514822755763.jpg?w=1024&amp;h=576&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2018/01/896860586-e1514822755763.jpg" medium="image">
+                <media:title type="html">Boston Celtics v New York Knicks</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/248a2532e1a6de3be9306522fa0a9e07?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">danfeld</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>Joel Embiid sprains hand, X-rays negative and he played through it</title>
+            <link>http://nba.nbcsports.com/2018/01/01/joel-embiid-sprains-hand-x-rays-negative-and-he-played-through-it/</link>
+            <comments>http://nba.nbcsports.com/2018/01/01/joel-embiid-sprains-hand-x-rays-negative-and-he-played-through-it/#respond</comments>
+            <pubDate>Mon, 01 Jan 2018 19:55:32 +0000</pubDate>
+            <dc:creator><![CDATA[Kurt Helin]]></dc:creator>
+            <category><![CDATA[Joel Embiid]]></category>
+            <category><![CDATA[Philadelphia 76ers]]></category>
+            <guid isPermaLink="false">http://nba.nbcsports.com/?p=833008</guid>
+            <description><![CDATA[He is not expected to miss time, so Sixers fans can exhale.<img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=833008&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2018/01/01/joel-embiid-sprains-hand-x-rays-negative-and-he-played-through-it/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2018/01/900149384-e1514824105512.jpg?w=1006&amp;h=568&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2018/01/900149384-e1514824105512.jpg" medium="image">
+                <media:title type="html">Philadelphia 76ers v Phoenix Suns</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/eeae1d7e888eba99ee78b415bfff595b?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">kurthelin</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>Lou Williams scores 40 off the bench</title>
+            <link>http://nba.nbcsports.com/2018/01/01/lou-williams-scores-40-off-the-bench/</link>
+            <comments>http://nba.nbcsports.com/2018/01/01/lou-williams-scores-40-off-the-bench/#respond</comments>
+            <pubDate>Mon, 01 Jan 2018 17:55:00 +0000</pubDate>
+            <dc:creator><![CDATA[Dan Feldman]]></dc:creator>
+            <category><![CDATA[Uncategorized]]></category>
+            <category><![CDATA[Los Angeles Clippers]]></category>
+            <guid isPermaLink="false">https://nbcprobasketballtalk.wordpress.com/?p=832987</guid>
+            <description><![CDATA[Clippers beat Hornets<img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=832987&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2018/01/01/lou-williams-scores-40-off-the-bench/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2018/01/896397738-e1514822279512.jpg?w=760&amp;h=430&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2018/01/896397738-e1514822279512.jpg" medium="image">
+                <media:title type="html">Phoenix Suns v Los Angeles Clippers</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/248a2532e1a6de3be9306522fa0a9e07?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">danfeld</media:title>
+            </media:content>
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2018/01/image_thumb.png" medium="image">
+                <media:title type="html">image</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>Chris Paul helps Rockets to 148-142 win over Lakers in double OT</title>
+            <link>http://nba.nbcsports.com/2018/01/01/__trashed-142/</link>
+            <comments>http://nba.nbcsports.com/2018/01/01/__trashed-142/#comments</comments>
+            <pubDate>Mon, 01 Jan 2018 15:55:44 +0000</pubDate>
+            <dc:creator><![CDATA[Associated Press]]></dc:creator>
+            <category><![CDATA[AP Story]]></category>
+            <category><![CDATA[Chris Paul]]></category>
+            <category><![CDATA[Lakers]]></category>
+            <category><![CDATA[Houston Rockets]]></category>
+            <category><![CDATA[Los Angeles Lakers]]></category>
+            <guid isPermaLink="false">http://nba.nbcsports.com/?p=832977</guid>
+            <description><![CDATA[With James Harden in the locker room with a hamstring injury and the Houston Rockets desperate to end their losing streak, Chris Paul came to the rescue.<img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=832977&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2018/01/01/__trashed-142/feed/</wfw:commentRss>
+            <slash:comments>2</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2018/01/ap_18001154776711-e1514822629416.jpg?w=1506&amp;h=848&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2018/01/ap_18001154776711-e1514822629416.jpg" medium="image">
+                <media:title type="html">Chris Paul, Kyle Kuzma</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/eeae1d7e888eba99ee78b415bfff595b?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">kurthelin</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>Alex Caruso dunks on P.J. Tucker (video)</title>
+            <link>http://nba.nbcsports.com/2018/01/01/alex-caruso-dunks-on-p-j-tucker-video/</link>
+            <comments>http://nba.nbcsports.com/2018/01/01/alex-caruso-dunks-on-p-j-tucker-video/#respond</comments>
+            <pubDate>Mon, 01 Jan 2018 15:33:07 +0000</pubDate>
+            <dc:creator><![CDATA[Dan Feldman]]></dc:creator>
+            <category><![CDATA[Uncategorized]]></category>
+            <category><![CDATA[Houston Rockets]]></category>
+            <category><![CDATA[Los Angeles Lakers]]></category>
+            <guid isPermaLink="false">https://nbcprobasketballtalk.wordpress.com/?p=832981</guid>
+            <description><![CDATA[Lakers fall to Rockets, though<img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=832981&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2018/01/01/alex-caruso-dunks-on-p-j-tucker-video/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2018/01/858030500-e1514820767211.jpg?w=1024&amp;h=576&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2018/01/858030500-e1514820767211.jpg" medium="image">
+                <media:title type="html">858030500</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/248a2532e1a6de3be9306522fa0a9e07?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">danfeld</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>Bradley Beal’s 39 points lead Wizards to 114-110 win over Bulls</title>
+            <link>http://nba.nbcsports.com/2017/12/31/bradley-beals-39-points-lead-wizards-to-114-110-win-over-bulls/</link>
+            <comments>http://nba.nbcsports.com/2017/12/31/bradley-beals-39-points-lead-wizards-to-114-110-win-over-bulls/#comments</comments>
+            <pubDate>Mon, 01 Jan 2018 04:00:25 +0000</pubDate>
+            <dc:creator><![CDATA[Associated Press]]></dc:creator>
+            <category><![CDATA[AP Story]]></category>
+            <category><![CDATA[Bradley Beal]]></category>
+            <category><![CDATA[Bulls]]></category>
+            <category><![CDATA[Wizards]]></category>
+            <category><![CDATA[Chicago Bulls]]></category>
+            <category><![CDATA[Washington Wizards]]></category>
+            <guid isPermaLink="false">http://nba.nbcsports.com/?p=832961</guid>
+            <description><![CDATA[Bradley Beal scored 17 of his 39 points in the fourth quarter, leading the Washington Wizards to a 114-110 win over the Chicago Bulls on Sunday.<img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=832961&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2017/12/31/bradley-beals-39-points-lead-wizards-to-114-110-win-over-bulls/feed/</wfw:commentRss>
+            <slash:comments>1</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2017/03/645630964-e1488933135570.jpg?w=1506&amp;h=848&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2017/03/645630964-e1488933135570.jpg" medium="image">
+                <media:title type="html">Utah Jazz v Washington Wizards</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/5f2d096d5025c5453b682481050dcc1c?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">Dane</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>James Harden leaves game vs. Lakers with leg injury</title>
+            <link>http://nba.nbcsports.com/2017/12/31/james-harden-leaves-game-vs-lakers-with-leg-injury/</link>
+            <comments>http://nba.nbcsports.com/2017/12/31/james-harden-leaves-game-vs-lakers-with-leg-injury/#comments</comments>
+            <pubDate>Mon, 01 Jan 2018 03:13:00 +0000</pubDate>
+            <dc:creator><![CDATA[Dane Carbaugh]]></dc:creator>
+            <category><![CDATA[James Harden]]></category>
+            <category><![CDATA[Lakers]]></category>
+            <category><![CDATA[Rockets]]></category>
+            <category><![CDATA[Top Posts]]></category>
+            <category><![CDATA[Houston Rockets]]></category>
+            <category><![CDATA[Los Angeles Lakers]]></category>
+            <guid isPermaLink="false">http://nba.nbcsports.com/?p=832972</guid>
+            <description><![CDATA[Houston Rockets star James Harden appeared to injure his left leg on a drive late in the fourth quarter. <img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=832972&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2017/12/31/james-harden-leaves-game-vs-lakers-with-leg-injury/feed/</wfw:commentRss>
+            <slash:comments>3</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2017/11/ap_17306094857136-e1509947068336.jpg?w=1506&amp;h=848&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2017/11/ap_17306094857136-e1509947068336.jpg" medium="image">
+                <media:title type="html">James Harden</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/5f2d096d5025c5453b682481050dcc1c?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">Dane</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>Whatever Paul George is wearing here might make you go blind</title>
+            <link>http://nba.nbcsports.com/2017/12/31/whatever-paul-george-is-wearing-here-might-make-you-go-blind/</link>
+            <comments>http://nba.nbcsports.com/2017/12/31/whatever-paul-george-is-wearing-here-might-make-you-go-blind/#comments</comments>
+            <pubDate>Mon, 01 Jan 2018 02:30:49 +0000</pubDate>
+            <dc:creator><![CDATA[Dane Carbaugh]]></dc:creator>
+            <category><![CDATA[Mavericks]]></category>
+            <category><![CDATA[Paul George]]></category>
+            <category><![CDATA[Thunder]]></category>
+            <category><![CDATA[Dallas Mavericks]]></category>
+            <category><![CDATA[Oklahoma City Thunder]]></category>
+            <guid isPermaLink="false">http://nba.nbcsports.com/?p=832960</guid>
+            <description><![CDATA[Is it black with white spikes, or white with black spikes? Really makes you think.<img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=832960&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2017/12/31/whatever-paul-george-is-wearing-here-might-make-you-go-blind/feed/</wfw:commentRss>
+            <slash:comments>3</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2017/12/george-e1514767656119.jpg?w=1351&amp;h=848&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2017/12/george-e1514767656119.jpg" medium="image">
+                <media:title type="html">george</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/5f2d096d5025c5453b682481050dcc1c?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">Dane</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>Patrick Patterson fined $10,000 for Tweeting referees “been s*** this year”</title>
+            <link>http://nba.nbcsports.com/2017/12/31/patrick-patterson-fined-10000-for-tweeting-referees-been-s-this-year/</link>
+            <comments>http://nba.nbcsports.com/2017/12/31/patrick-patterson-fined-10000-for-tweeting-referees-been-s-this-year/#comments</comments>
+            <pubDate>Mon, 01 Jan 2018 00:00:09 +0000</pubDate>
+            <dc:creator><![CDATA[Kurt Helin]]></dc:creator>
+            <category><![CDATA[Referees]]></category>
+            <category><![CDATA[Oklahoma City Thunder]]></category>
+            <guid isPermaLink="false">http://nba.nbcsports.com/?p=832955</guid>
+            <description><![CDATA[There needs to be better communication between players and referees, but it's a two-way street.<img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=832955&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2017/12/31/patrick-patterson-fined-10000-for-tweeting-referees-been-s-this-year/feed/</wfw:commentRss>
+            <slash:comments>2</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2017/12/634816086-e1514760411664.jpg?w=1008&amp;h=568&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2017/12/634816086-e1514760411664.jpg" medium="image">
+                <media:title type="html">Golden State Warriors v Oklahoma City Thunder</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/eeae1d7e888eba99ee78b415bfff595b?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">kurthelin</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>Draymond Green gets ejected after two technical fouls in a minute (VIDEO)</title>
+            <link>http://nba.nbcsports.com/2017/12/31/draymond-green-gets-two-technical-fouls-in-a-minute-earns-ejection-video/</link>
+            <comments>http://nba.nbcsports.com/2017/12/31/draymond-green-gets-two-technical-fouls-in-a-minute-earns-ejection-video/#comments</comments>
+            <pubDate>Sun, 31 Dec 2017 22:00:16 +0000</pubDate>
+            <dc:creator><![CDATA[Dane Carbaugh]]></dc:creator>
+            <category><![CDATA[Draymond Green]]></category>
+            <category><![CDATA[Grizzlies]]></category>
+            <category><![CDATA[Warriors]]></category>
+            <category><![CDATA[Golden State Warriors]]></category>
+            <category><![CDATA[Memphis Grizzlies]]></category>
+            <guid isPermaLink="false">http://nba.nbcsports.com/?p=832948</guid>
+            <description><![CDATA[These were sort of weak.<img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=832948&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2017/12/31/draymond-green-gets-two-technical-fouls-in-a-minute-earns-ejection-video/feed/</wfw:commentRss>
+            <slash:comments>4</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2017/12/876426550-e1514236788907.jpg?w=693&amp;h=391&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2017/12/876426550-e1514236788907.jpg" medium="image">
+                <media:title type="html">Golden State Warriors v Brooklyn Nets</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/5f2d096d5025c5453b682481050dcc1c?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">Dane</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>Watch Anthony Davis dismantle Ron Baker on this huge dunk (VIDEO)</title>
+            <link>http://nba.nbcsports.com/2017/12/31/watch-anthony-davis-dismantle-ron-baker-on-this-huge-dunk-video/</link>
+            <comments>http://nba.nbcsports.com/2017/12/31/watch-anthony-davis-dismantle-ron-baker-on-this-huge-dunk-video/#comments</comments>
+            <pubDate>Sun, 31 Dec 2017 19:30:45 +0000</pubDate>
+            <dc:creator><![CDATA[Dane Carbaugh]]></dc:creator>
+            <category><![CDATA[Anthony Davis]]></category>
+            <category><![CDATA[Knicks]]></category>
+            <category><![CDATA[Pelicans]]></category>
+            <category><![CDATA[Top Posts]]></category>
+            <category><![CDATA[New Orleans Pelicans]]></category>
+            <category><![CDATA[New York Knicks]]></category>
+            <guid isPermaLink="false">http://nba.nbcsports.com/?p=832945</guid>
+            <description><![CDATA[Good on him for contesting the dunk, though. Who among us would be so brave?<img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=832945&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2017/12/31/watch-anthony-davis-dismantle-ron-baker-on-this-huge-dunk-video/feed/</wfw:commentRss>
+            <slash:comments>9</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2017/12/ap_17365049202579-e1514742876879.jpg?w=1506&amp;h=848&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2017/12/ap_17365049202579-e1514742876879.jpg" medium="image">
+                <media:title type="html">Anthony Davis, Michael Beasley, Kyle O'Quinn, Ron Baker</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/5f2d096d5025c5453b682481050dcc1c?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">Dane</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>Utah’s Rudy Gobert still out, to be re-evaluated in two weeks</title>
+            <link>http://nba.nbcsports.com/2017/12/31/utahs-rudy-gobert-still-out-to-be-re-evaluated-in-two-weeks/</link>
+            <comments>http://nba.nbcsports.com/2017/12/31/utahs-rudy-gobert-still-out-to-be-re-evaluated-in-two-weeks/#respond</comments>
+            <pubDate>Sun, 31 Dec 2017 17:00:30 +0000</pubDate>
+            <dc:creator><![CDATA[Kurt Helin]]></dc:creator>
+            <category><![CDATA[Rudy Gobert]]></category>
+            <category><![CDATA[Top Posts]]></category>
+            <category><![CDATA[Cleveland Cavaliers]]></category>
+            <category><![CDATA[Utah Jazz]]></category>
+            <guid isPermaLink="false">http://nba.nbcsports.com/?p=832943</guid>
+            <description><![CDATA[Gobert has played in just 18 games this season due to flukey knee injuries. <img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=832943&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2017/12/31/utahs-rudy-gobert-still-out-to-be-re-evaluated-in-two-weeks/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2017/12/862938748-e1514721698127.jpg?w=1018&amp;h=573&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2017/12/862938748-e1514721698127.jpg" medium="image">
+                <media:title type="html">862938748</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/eeae1d7e888eba99ee78b415bfff595b?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">kurthelin</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>Kristaps Porzingis’ 30, Jarrett Jack’s tiebreaking free throws lift Knicks past Pelicans</title>
+            <link>http://nba.nbcsports.com/2017/12/31/__trashed-58/</link>
+            <comments>http://nba.nbcsports.com/2017/12/31/__trashed-58/#comments</comments>
+            <pubDate>Sun, 31 Dec 2017 15:00:05 +0000</pubDate>
+            <dc:creator><![CDATA[Associated Press]]></dc:creator>
+            <category><![CDATA[AP Story]]></category>
+            <category><![CDATA[Kristaps Porzingis]]></category>
+            <category><![CDATA[New Orleans Pelicans]]></category>
+            <category><![CDATA[New York Knicks]]></category>
+            <guid isPermaLink="false">http://nba.nbcsports.com/?p=832924</guid>
+            <description><![CDATA[Jarrett Jack made two free throws to break a tie with 9 seconds remaining to win the game.<img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=832924&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2017/12/31/__trashed-58/feed/</wfw:commentRss>
+            <slash:comments>4</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2017/12/ap_17365020683970-e1514719609280.jpg?w=1506&amp;h=848&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2017/12/ap_17365020683970-e1514719609280.jpg" medium="image">
+                <media:title type="html">Kristaps Porzingis, Anthony Davis</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/eeae1d7e888eba99ee78b415bfff595b?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">kurthelin</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>Utah’s Donovan Mitchell scores 29, ruins LeBron’s birthday with Jazz win</title>
+            <link>http://nba.nbcsports.com/2017/12/31/utahs-donovan-mitchell-scores-29-ruins-lebrons-birthday-with-jazz-win/</link>
+            <comments>http://nba.nbcsports.com/2017/12/31/utahs-donovan-mitchell-scores-29-ruins-lebrons-birthday-with-jazz-win/#comments</comments>
+            <pubDate>Sun, 31 Dec 2017 12:59:35 +0000</pubDate>
+            <dc:creator><![CDATA[Associated Press]]></dc:creator>
+            <category><![CDATA[AP Story]]></category>
+            <category><![CDATA[Cleveland Cavaliers]]></category>
+            <category><![CDATA[Utah Jazz]]></category>
+            <guid isPermaLink="false">http://nba.nbcsports.com/?p=832927</guid>
+            <description><![CDATA[Donovan Mitchell scored 29 points, and Utah handed LeBron James and the  Cavaliers their third straight defeat.<img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=832927&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2017/12/31/utahs-donovan-mitchell-scores-29-ruins-lebrons-birthday-with-jazz-win/feed/</wfw:commentRss>
+            <slash:comments>3</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2017/12/ap_17365131720331-e1514700282214.jpg?w=1506&amp;h=848&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2017/12/ap_17365131720331-e1514700282214.jpg" medium="image">
+                <media:title type="html">Jeff Green, Donovan Mitchell</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/eeae1d7e888eba99ee78b415bfff595b?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">kurthelin</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>Stephen Curry returns from injury, drops 10 threes on Grizzlies (VIDEO)</title>
+            <link>http://nba.nbcsports.com/2017/12/31/stephen-curry-returns-from-injury-drops-10-threes-on-grizzlies-video/</link>
+            <comments>http://nba.nbcsports.com/2017/12/31/stephen-curry-returns-from-injury-drops-10-threes-on-grizzlies-video/#comments</comments>
+            <pubDate>Sun, 31 Dec 2017 05:58:46 +0000</pubDate>
+            <dc:creator><![CDATA[Associated Press]]></dc:creator>
+            <category><![CDATA[AP Story]]></category>
+            <category><![CDATA[Stephen Curry]]></category>
+            <category><![CDATA[Top Posts]]></category>
+            <category><![CDATA[Golden State Warriors]]></category>
+            <category><![CDATA[Memphis Grizzlies]]></category>
+            <guid isPermaLink="false">http://nba.nbcsports.com/?p=832926</guid>
+            <description><![CDATA[Stephen Curry made a sensational return from injury by scoring 38 points with a season-high 10 3-pointers.<img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=832926&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2017/12/31/stephen-curry-returns-from-injury-drops-10-threes-on-grizzlies-video/feed/</wfw:commentRss>
+            <slash:comments>7</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2017/12/ap_17365147533243-e1514699917346.jpg?w=1506&amp;h=848&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2017/12/ap_17365147533243-e1514699917346.jpg" medium="image">
+                <media:title type="html">Stephen Curry</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/eeae1d7e888eba99ee78b415bfff595b?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">kurthelin</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>Suns’ GM says Devin Booker will have input on coaching search, roster moves</title>
+            <link>http://nba.nbcsports.com/2017/12/30/suns-gm-says-devin-booker-will-have-input-on-coaching-search-roster-moves/</link>
+            <comments>http://nba.nbcsports.com/2017/12/30/suns-gm-says-devin-booker-will-have-input-on-coaching-search-roster-moves/#comments</comments>
+            <pubDate>Sun, 31 Dec 2017 04:00:25 +0000</pubDate>
+            <dc:creator><![CDATA[Kurt Helin]]></dc:creator>
+            <category><![CDATA[Devin Booker]]></category>
+            <category><![CDATA[Phoenix Suns]]></category>
+            <guid isPermaLink="false">http://nba.nbcsports.com/?p=832855</guid>
+            <description><![CDATA[Is Devin Booker a franchise player?<img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=832855&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2017/12/30/suns-gm-says-devin-booker-will-have-input-on-coaching-search-roster-moves/feed/</wfw:commentRss>
+            <slash:comments>3</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2017/12/884550450-e1514653086588.jpg?w=1016&amp;h=573&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2017/12/884550450-e1514653086588.jpg" medium="image">
+                <media:title type="html">Phoenix Suns v Boston Celtics</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/eeae1d7e888eba99ee78b415bfff595b?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">kurthelin</media:title>
+            </media:content>
+        </item>
+        <item>
+            <title>NBA’s competition committee to review replay situations like in Bucks win</title>
+            <link>http://nba.nbcsports.com/2017/12/30/nbas-competition-committee-to-review-replay-situations-like-in-bucks-win/</link>
+            <comments>http://nba.nbcsports.com/2017/12/30/nbas-competition-committee-to-review-replay-situations-like-in-bucks-win/#respond</comments>
+            <pubDate>Sun, 31 Dec 2017 02:01:25 +0000</pubDate>
+            <dc:creator><![CDATA[Kurt Helin]]></dc:creator>
+            <category><![CDATA[Referees]]></category>
+            <guid isPermaLink="false">http://nba.nbcsports.com/?p=832918</guid>
+            <description><![CDATA[It's time for the NBA to implement an NFL-style challenge system.<img alt="" border="0" src="http://pixel.wp.com/b.gif?host=nba.nbcsports.com&#038;blog=15932946&#038;post=832918&#038;subd=nbcprobasketballtalk&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+            <wfw:commentRss>http://nba.nbcsports.com/2017/12/30/nbas-competition-committee-to-review-replay-situations-like-in-bucks-win/feed/</wfw:commentRss>
+            <slash:comments>0</slash:comments>
+            <media:thumbnail url="https://nbcprobasketballtalk.files.wordpress.com/2017/12/474675510-e1514681270759.jpg?w=1018&amp;h=573&amp;crop=1" />
+            <media:content url="http://nbcprobasketballtalk.files.wordpress.com/2017/12/474675510-e1514681270759.jpg" medium="image">
+                <media:title type="html">Atlanta Hawks v Cleveland Cavaliers - Game Three</media:title>
+            </media:content>
+            <media:content url="http://2.gravatar.com/avatar/eeae1d7e888eba99ee78b415bfff595b?s=96&amp;d=http%3A%2F%2F2.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&amp;r=G" medium="image">
+                <media:title type="html">kurthelin</media:title>
+            </media:content>
+        </item>
+    </channel>
+</rss>

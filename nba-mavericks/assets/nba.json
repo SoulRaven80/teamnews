@@ -1,0 +1,84 @@
+{
+  "rss":{
+    "channel":{
+      "description":"NBA.com delivers the latest news, video, and scores from around the NBA league.",
+      "title":"NBA.com: News",
+      "link":"http://www.nba.com/news",
+      "image":{
+        "height":38,
+        "width":144,
+        "title":"NBA.com",
+        "link":"http://www.nba.com/news",
+        "url":"http://i.cdn.turner.com/nba/nba/media/nba_rss.jpg"
+      },
+      "pubDate":"Mon, 01 Jan 2018 20:16:02 EST",
+      "copyright":"Copyright (c) 2018NBA Media Ventures, LLC. All rights reserved.",
+      "lastBuildDate":"Mon, 01 Jan 2018 20:16:02 EST",
+      "managingEditor":"webmaster@nba.com",
+      "language":"en-us",
+      "item":[
+        {
+          "pubDate":"Mon, 01 Jan 2018 20:15:47 EST",
+          "link":"http://www.nba.com/article/2018/01/01/houston-rockets-james-harden-out-least-two-weeks-hamstring-strain/?rss=true",
+          "description":"The Houston Rockets announced on Monday that All-NBA guard James Harden suffered a Grade 2 hamstring strain during Sunday's double-overtime win over the Lakers, forcing him to miss at least two weeks of action before being re-evaluated.",
+          "title":"Houston Rockets guard James Harden out at least two weeks with hamstring strain"
+        },
+        {
+          "pubDate":"Mon, 01 Jan 2018 19:24:32 EST",
+          "link":"http://www.nba.com/article/2018/01/01/zach-lavine-inching-closer-debut-chicago-bulls/?rss=true",
+          "description":"The Chicago Bulls are closer to seeing the full return of their offseason trade on the court.",
+          "title":"Zach LaVine inching closer to Chicago Bulls debut"
+        },
+        {
+          "pubDate":"Mon, 01 Jan 2018 19:07:01 EST",
+          "link":"http://www.nba.com/article/2018/01/01/jabari-parker-g-league-assignment-wisconsin-herd/?rss=true",
+          "description":"MILWAUKEE -- The Milwaukee Bucks have assigned forward Jabari Parker to the Wisconsin Herd of the NBA G League to continue his rehabilitation process.",
+          "title":"Milwaukee Bucks assign rehabbing Jabari Parker to Wisconsin Herd"
+        },
+        {
+          "pubDate":"Mon, 01 Jan 2018 18:41:26 EST",
+          "link":"http://www.nba.com/article/2018/01/01/portland-trail-blazers-damian-lillard-continues-sit-strained-hamstring/?rss=true",
+          "description":"The Portland Trail Blazers will play their fifth consecutive game without star guard Damian Lillard, who is still recovering from a strained right hamstring, when they visit the Chicago Bulls on Monday night.",
+          "title":"Portland Trail Blazers guard Damian Lillard continues to sit with strained hamstring"
+        },
+        {
+          "pubDate":"Mon, 01 Jan 2018 16:37:45 EST",
+          "link":"http://www.nba.com/article/2018/01/01/cleveland-cavaliers-isaiah-thomas-debut-tuesday/?rss=true",
+          "description":"CLEVELAND (AP) -- The agonizing wait to play again is over for Isaiah Thomas. Vengeance on the Celtics is still on hold.",
+          "title":"Cleveland Cavaliers' Isaiah Thomas to make season debut Tuesday vs. Trail Blazers"
+        },
+        {
+          "pubDate":"Mon, 01 Jan 2018 04:14:19 EST",
+          "link":"http://www.nba.com/article/2017/12/31/philadelphia-76ers-center-joels-embiid-injures-shooting-hand-x-rays-negative/?rss=true",
+          "description":"PHOENIX (AP) -- Philadelphia center Joel Embiid injured his right hand going after an inbounds pass late in the fourth quarter of the 76ers' 123-110 victory over the Phoenix Suns on Sunday night.",
+          "title":"Philadelphia 76ers center Joel Embiid injures right hand; X-rays negative"
+        },
+        {
+          "pubDate":"Mon, 01 Jan 2018 04:15:50 EST",
+          "link":"http://www.nba.com/article/2017/12/31/james-harden-leaves-houston-rockets-los-angeles-lakers-game-strained-left/?rss=true",
+          "description":"Rockets guard James Harden limped to the locker room Sunday night in the fourth quarter with a strained left hamstring.",
+          "title":"James Harden exits Sunday's game with strained left hamstring"
+        },
+        {
+          "pubDate":"Sun, 31 Dec 2017 19:18:03 EST",
+          "link":"http://www.nba.com/article/2017/12/31/nba-plays-week-december-30-2017/?rss=true",
+          "description":"",
+          "title":"NBA Plays of the Week: Dec. 24 - 30 (Week 11)"
+        },
+        {
+          "pubDate":"Sun, 31 Dec 2017 18:13:14 EST",
+          "link":"http://www.nba.com/article/2017/12/31/oklahoma-city-thunders-patrick-patterson-fined-10k-criticizing-officiating/?rss=true",
+          "description":"NEW YORK (AP) -- Oklahoma City Thunder forward Patrick Patterson has been fined $10,000 for publicly complaining about the officiating during the 2017-18 season.",
+          "title":"Oklahoma City Thunder's Patrick Patterson fined $10K for criticizing officiating"
+        },
+        {
+          "pubDate":"Sun, 31 Dec 2017 17:32:08 EST",
+          "link":"http://www.nba.com/article/2017/12/31/injured-austin-rivers-miss-los-angeles-clippers-game-against-charlotte-hornets/?rss=true",
+          "description":"LOS ANGELES (AP) -- Clippers guard Austin Rivers will miss the Los Angeles' game Sunday against Charlotte after injuring his right Achilles.",
+          "title":"Injured Austin Rivers to miss Los Angeles Clippers' game against Charlotte Hornets"
+        }
+      ]
+    },
+    "version":2
+  }
+}

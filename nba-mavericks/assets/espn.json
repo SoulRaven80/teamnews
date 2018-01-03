@@ -1,0 +1,190 @@
+{
+  "rss":{
+    "xmlns:admin":"http://webns.net/mvcb/",
+    "xmlns:sy":"http://purl.org/rss/1.0/modules/syndication/",
+    "xmlns:dc":"http://purl.org/dc/elements/1.1/",
+    "xmlns:content":"http://purl.org/rss/1.0/modules/content/",
+    "channel":{
+      "description":"Latest NBA news from www.espn.com",
+      "title":"www.espn.com - NBA",
+      "link":"http://www.espn.com",
+      "image":{
+        "height":110,
+        "width":110,
+        "title":"www.espn.com - NBA",
+        "link":"http://www.espn.com",
+        "url":"http://a.espncdn.com/i/espn/teamlogos/lrg/trans/espn_dotcom_black.gif"
+      },
+      "copyright":"Copyright 2015 ESPN Inc.",
+      "lastBuildDate":"Tue, 2 Jan 2018 04:47:27 GMT",
+      "language":"en",
+      "generator":"ESPN Inc. http://www.espn.com",
+      "item":[
+        {
+          "pubDate":"Sun, 31 Dec 2017 23:08:58 EST",
+          "title":"After feasting on Nets picks, Celtics fans moving on to 2018 Lakers pick",
+          "description":"The Boston Celtics ended 2017 with many wins over the Brooklyn Nets. Now, Celtics fans are going from #Netspick to #Lakerspick in 2018.",
+          "guid":{
+            "content":"21929519",
+            "isPermaLink":false
+          },
+          "link":"http://www.espn.com/nba/story/_/id/21929519/nba-celtics-looking-forward-lakers-pick-2018"
+        },
+        {
+          "pubDate":"Mon, 1 Jan 2018 19:55:47 EST",
+          "title":"Rockets lose Harden for at least two weeks",
+          "description":"Rockets star James Harden, who has missed only two games since the start of the 2014-15 season and has never missed more than nine games in a season, will now be out at least two weeks due to a hamstring strain.",
+          "guid":{
+            "content":"21936683",
+            "isPermaLink":false
+          },
+          "link":"http://www.espn.com/nba/story/_/id/21936683/james-harden-houston-rockets-least-2-weeks-hamstring-strain"
+        },
+        {
+          "pubDate":"Mon, 1 Jan 2018 22:48:50 EST",
+          "title":"DeRozan goes off for Raptors-record 52 points",
+          "description":"DeMar DeRozan posted the highest-scoring game in Raptors history Monday night, dropping 52 points against the Milwaukee Bucks to break the record shared by Vince Carter and Terrence Ross.",
+          "guid":{
+            "content":"21937827",
+            "isPermaLink":false
+          },
+          "link":"http://www.espn.com/nba/story/_/id/21937827/demar-derozan-sets-toronto-raptors-record-52-points-win-over"
+        },
+        {
+          "pubDate":"Mon, 1 Jan 2018 11:22:00 EST",
+          "title":"Lithuanian coach: Ball brothers to 'play a lot'",
+          "description":"Virginijus Seskus, the head coach of Prienu Vytautas, told ESPN that LiAngelo and LaMelo Ball will play on the court together and see significant minutes. The brothers are expected to debut in Lithuania on Jan. 9.",
+          "guid":{
+            "content":"21932895",
+            "isPermaLink":false
+          },
+          "link":"http://www.espn.com/mens-college-basketball/story/_/id/21932895/prienu-vytautas-coach-says-liangelo-lamelo-ball-play-lot"
+        },
+        {
+          "pubDate":"Mon, 1 Jan 2018 14:28:40 EST",
+          "title":"Thomas to debut for Cavs Tuesday vs. Blazers",
+          "description":"Cavaliers point guard Isaiah Thomas will make his season debut against the Blazers on Tuesday, but will not play the next night against the Celtics.",
+          "guid":{
+            "content":"21934542",
+            "isPermaLink":false
+          },
+          "link":"http://www.espn.com/nba/story/_/id/21934542/cleveland-cavaliers-star-isaiah-thomas-make-season-debut-tuesday"
+        },
+        {
+          "pubDate":"Sun, 31 Dec 2017 23:52:44 EST",
+          "title":"X-ray on Embiid's hand negative, 'just a sprain'",
+          "description":"Sixers center Joel Embiid had an X-ray on his right hand after he took a hard fall Sunday night, and the X-ray was negative. Embiid said the injury appears to be 'just a sprain' and he'll be fine.",
+          "guid":{
+            "content":"21929668",
+            "isPermaLink":false
+          },
+          "link":"http://www.espn.com/nfl/story/_/id/21929668/philadelphia-sixers-c-joel-embiid-sprains-hand"
+        },
+        {
+          "pubDate":"Mon, 1 Jan 2018 00:35:45 EST",
+          "title":"Clippers' Williams comes off bench, nets 40",
+          "description":"The Clippers relied on Lou Williams in Sunday's victory over the Hornets, as the former Sixth Man of the Year came off the bench to net 40 points in the win.",
+          "guid":{
+            "content":"21929895",
+            "isPermaLink":false
+          },
+          "link":"http://www.espn.com/nba/story/_/id/21929895/la-clippers-guard-lou-williams-scores-40-points-lead-team-charlotte-hornets"
+        },
+        {
+          "pubDate":"Sun, 31 Dec 2017 13:02:33 EST",
+          "title":"New Year's resolutions for James Harden, Kyrie Irving and more",
+          "description":"What could make James Harden even more unguardable? What's holding back Kyrie Irving? Here's what five franchise players can improve upon to have a happier new year in 2018.",
+          "guid":{
+            "content":"21924974",
+            "isPermaLink":false
+          },
+          "link":"http://www.espn.com/nba/story/_/id/21924974/nba-new-year-resolutions-james-harden-kyrie-irving-more"
+        },
+        {
+          "pubDate":"Fri, 29 Dec 2017 21:44:59 EST",
+          "title":"Schedule alert! Every game tired teams should lose in January",
+          "description":"Next month features the most severe schedule disadvantage of the season. How much did the schedule affect teams in December, and who should be on alert in January?",
+          "guid":{
+            "content":"21913719",
+            "isPermaLink":false
+          },
+          "link":"http://www.espn.com/nba/story/_/id/21913719/nba-schedule-alert-20-games-tired-teams-lose-january"
+        },
+        {
+          "pubDate":"Sat, 30 Dec 2017 22:35:43 EST",
+          "title":"Pelton mail: Do the Wizards really play down to the competition?",
+          "description":"Kevin Pelton answers questions on Klay Thompson's defense, who gets their shots blocked the most, the mystifying Wizards and more.",
+          "guid":{
+            "content":"21921522",
+            "isPermaLink":false
+          },
+          "link":"http://www.espn.com/nba/story/_/id/21921522/kevin-pelton-weekly-mailbag-including-wizards-playing-to-competition"
+        },
+        {
+          "pubDate":"Sun, 31 Dec 2017 13:42:13 EST",
+          "title":"How LeBron James has remained so dominant in his 15th season",
+          "description":"From his childhood in Akron to his Olympic days in Beijing to a summer of film study, LeBron James long ago planted the seeds for long-term success. Now in his 15th season, the harvest has arrived.",
+          "guid":{
+            "content":"21831381",
+            "isPermaLink":false
+          },
+          "link":"http://www.espn.com/nba/story/_/id/21831381/lebron-james-reaping-benefits-groundwork-laid-years-ago-nba"
+        },
+        {
+          "pubDate":"Thu, 28 Dec 2017 21:21:13 EST",
+          "title":"Lowe's 10 things: Warriors and Thunder add new dimensions",
+          "description":"Zach Lowe highlights a Warriors rookie, Kristaps Porzingis growing into superstardom, a brainy point guard, free-throw comedy and more.",
+          "guid":{
+            "content":"21906021",
+            "isPermaLink":false
+          },
+          "link":"http://www.espn.com/nba/story/_/id/21906021/zach-lowe-10-things-like-including-warriors-thunder-nba"
+        },
+        {
+          "pubDate":"Fri, 29 Dec 2017 11:00:24 EST",
+          "title":"Avery Bradley denies sexual assault allegation",
+          "description":"Pistons guard Avery Bradley has denied a sexual assault allegation, and his attorney acknowledged that Bradley has a confidentiality agreement with the accuser \"to protect the reputation and privacy of Mr. Bradley and his family.\"",
+          "guid":{
+            "content":"21910429",
+            "isPermaLink":false
+          },
+          "link":"http://www.espn.com/nba/story/_/id/21910429/avery-bradley-detroit-pistons-denies-sexual-assault-allegation-acknowledges-confidentiality-agreement"
+        },
+        {
+          "pubDate":"Wed, 27 Dec 2017 16:25:36 EST",
+          "title":"The NBA's city-edition uniforms",
+          "description":"The rest of the new Nike uniforms have arrived, and so have the grades on how they look.",
+          "guid":{
+            "content":"21892679",
+            "isPermaLink":false
+          },
+          "link":"http://www.espn.com/nba/story/_/id/21892679/nike-unveils-their-final-crop-new-uniforms-hand-grades"
+        },
+        {
+          "pubDate":"Wed, 27 Dec 2017 14:04:01 EST",
+          "title":"How Kobe Bryant inspired a progressive new Lakers look",
+          "description":"The Lakers are the only team using their city-edition unis to honor franchise legends. For the first edition, they called in the Black Mamba.",
+          "guid":{
+            "content":"21887992",
+            "isPermaLink":false
+          },
+          "link":"http://www.espn.com/nba/story/_/id/21887992/zach-lowe-new-los-angeles-lakers-uniforms-inspired-kobe-bryant-nba"
+        },
+        {
+          "pubDate":"Wed, 27 Dec 2017 14:33:18 EST",
+          "title":"Lowe: The Utah Jazz have a bold new look like you've never seen before",
+          "description":"The Jazz have always had a peculiar relationship with their New Orleans-based nickname. For special city-edition uniforms set to debut next month, they're gambling on something wildly different.",
+          "guid":{
+            "content":"21868878",
+            "isPermaLink":false
+          },
+          "link":"http://www.espn.com/nba/story/_/id/21868878/zach-lowe-utah-jazz-new-nike-jerseys-featuring-delicate-arch-nba"
+        }
+      ],
+      "ttl":30
+    },
+    "xmlns:rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xmlns:atom":"http://purl.org/atom/ns#",
+    "version":2
+  }
+}

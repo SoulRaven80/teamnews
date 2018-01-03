@@ -8,7 +8,7 @@ public class DescriptionRequiredRSSFilter implements RSSFilter {
 
     @Override
     public boolean filter(final JSONObject entry) throws JSONException {
-        String description = entry.getString("content");
+        String description = entry.getString("description");
         return description != null && !description.trim().isEmpty();
     }
 }
